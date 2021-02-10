@@ -7,28 +7,28 @@ class IntsAndFloatsTests < Minitest::Test
     unlucky = 13
     # Using the two variables defined above,
     # add the lucky number and the unlucky number
-    sum = ________
+    sum = lucky + unlucky
     assert_equal 20, sum
   end
 
   def test_2
-    skip
+    # skip
     lucky = 7
     unlucky = 13
     # Using the two variables defined above,
     # subtract the unlucky from the lucky
-    difference = ________
+    difference = lucky - unlucky
     assert_equal -6, difference
   end
 
   def test_3
-    skip
+    # skip
     lucky = 7
     unlucky = 13
     # Using the two variables defined above,
     # divide unlucky by lucky
     # NOTE: this is integer division
-    quotient = ________
+    quotient = unlucky / lucky
     assert_equal 1, quotient
   end
 
